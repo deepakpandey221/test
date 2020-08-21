@@ -1,0 +1,91 @@
+.header {
+  text-align: center;
+  font-weight: bold;
+  color: aqua;
+  font-size: 50px;
+  font-style: italic;
+}
+.subtitle {
+  text-align: center;
+}
+.main-header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #0cda16;
+  padding: 0 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.main-header__nav {
+  height: 100%;
+  display: none;
+  align-items: center;
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header__item {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: white;
+}
+
+.imagecard {
+  box-sizing: border-box;
+  padding: 2.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  width: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  background-color: honeydew;
+  margin: 10px;
+}
+.welcome-text {
+  color: green;
+}
+
+.welcome-image {
+  margin-right: 0;
+}
+
+.welcome-body {
+  text-align: right;
+}
+
+.news-card {
+  width: 20rem;
+  float: right;
+  text-align: center;
+  color: ivory;
+  box-sizing: border-box;
+  background-color: green;
+  position: top;
+  margin: 10px;
+}
+.column {
+  float: inline-end;
+  width: 25%;
+  padding: 0 10px;
+  margin-bottom: 3rem;
+}
+.row {
+  margin: 0 -5px;
+}
+.body {
+  background-color: greenyellow;
+}
+
+.card {
+  margin: 10px;
+}
